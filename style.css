@@ -1,98 +1,53 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+    color:#333;
 }
 
-body {
-  background: #0f172a;
-  color: white;
-  text-align: center;
+/* HEADER */
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:30px;
 }
 
-/* HERO */
-.hero {
-  padding: 100px 20px;
-  background: linear-gradient(135deg, #4f46e5, #06b6d4);
-  animation: fadeDown 1s ease-in-out;
+/* MENU */
+nav{
+    background:#0f172a;
+    text-align:center;
+    padding:15px;
 }
 
-.hero h1 {
-  font-size: 50px;
-  animation: float 3s ease-in-out infinite;
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
 }
 
-.hero p {
-  font-size: 18px;
-  margin-top: 10px;
-  opacity: 0.9;
+/* SECTIONS */
+section{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* ABOUT */
-.about {
-  padding: 60px 20px;
-  animation: fadeUp 1.2s ease-in-out;
-}
-
-.about p {
-  max-width: 600px;
-  margin: auto;
-  color: #cbd5e1;
-}
-
-/* PROJECTS */
-.projects {
-  padding: 60px 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  background: #1e293b;
-  width: 250px;
-  border-radius: 15px;
-  overflow: hidden;
-  transition: 0.4s;
-  animation: fadeUp 1s ease-in-out;
-}
-
-.card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.card h3 {
-  padding: 15px;
-}
-
-.card:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+/* PROJETS */
+.projet{
+    border-left:4px solid #1e3a8a;
+    padding-left:10px;
+    margin:10px 0;
 }
 
 /* FOOTER */
-footer {
-  padding: 20px;
-  background: #020617;
-  color: #94a3b8;
-}
-
-/* ANIMATIONS */
-@keyframes fadeDown {
-  from { opacity: 0; transform: translateY(-40px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(40px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+footer{
+    text-align:center;
+    background:#0f172a;
+    color:white;
+    padding:20px;
+    margin-top:30px;
 }
