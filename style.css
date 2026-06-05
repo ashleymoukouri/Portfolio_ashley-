@@ -1,25 +1,64 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* STYLE GÉNÉRAL */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-html {
-  scroll-behavior: smooth;
+/* EN-TÊTE */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
 }
 
-/* Nav */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  background: #111;
- 
+/* SECTIONS */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* TITRES */
+h2 {
+    color: #2c3e50;
+}
+
+/* LISTE COMPÉTENCES */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #3498db;
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* CARTES PROJETS */
+.card {
+    background: #ecf0f1;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+
+/* PIED DE PAGE */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
